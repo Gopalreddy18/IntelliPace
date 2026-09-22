@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables & sessions
+.env
+.env.*
+!.env.example
+.session.json
+.session.json*
+*.bak
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
